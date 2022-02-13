@@ -1,0 +1,79 @@
+.security:after {
+    content: attr(data-content);
+    position: absolute;
+    -webkit-animation: myfirst 15s infinite;
+            animation: myfirst 15s infinite;
+    -webkit-animation-direction: linear;
+            animation-direction: linear;
+    left: 10%;
+    top: 10%;
+    color: #999;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: .5;
+    pointer-events: none;
+    cursor: default;
+  }
+  
+  @-webkit-keyframes myfirst {
+    0% {
+      left: 10%;
+      top: 10%;
+    }
+    15% {
+      left: 45%;
+      top: 10%;
+    }
+    30% {
+      left: 80%;
+      top: 10%;
+    }
+    45% {
+      left: 80%;
+      top: 70%;
+    }
+    65% {
+      left: 45%;
+      top: 70%;
+    }
+    80% {
+      left: 10%;
+      top: 70%;
+    }
+    100% {
+      left: 10%;
+      top: 10%;
+    }
+  }
+  
+  @keyframes myfirst {
+    0% {
+      left: 10%;
+      top: 10%;
+    }
+    15% {
+      left: 45%;
+      top: 10%;
+    }
+    30% {
+      left: 80%;
+      top: 10%;
+    }
+    45% {
+      left: 80%;
+      top: 70%;
+    }
+    65% {
+      left: 45%;
+      top: 70%;
+    }
+    80% {
+      left: 10%;
+      top: 70%;
+    }
+    100% {
+      left: 10%;
+      top: 10%;
+    }
+  }
+  /*# sourceMappingURL=jwplayer.css.map */
